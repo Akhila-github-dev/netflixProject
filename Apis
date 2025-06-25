@@ -1,0 +1,26 @@
+GetMapping
+based on email - http://localhost:8181/user/email/akhila@gmail.com
+based on id - http://localhost:8181/user/5
+=====================================================
+postMapping 
+http://localhost:8181/user/register
+json input
+
+{
+    "email": "pinky@gmail.com",
+    "password":"pinky#04",
+    "name":"pinky"
+}
+================================================
+putMapping
+updating name and password 
+http://localhost:8181/user/5
+json input
+
+{
+    "password":"pinky#04",
+    "name":"pinky"
+}
+============================================
+deleteMapping
+http://localhost:8181/user/5
