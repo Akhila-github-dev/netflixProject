@@ -1,3 +1,4 @@
+User-Service
 GetMapping
 based on email - http://localhost:8181/user/email/akhila@gmail.com
 based on id - http://localhost:8181/user/5
@@ -24,3 +25,22 @@ json input
 ============================================
 deleteMapping
 http://localhost:8181/user/5
+=========================================================================
+MovieContentService
+postMapping 
+url-http://localhost:8181/movie/add
+{
+  "title": "Inception",
+  "genre": "Sci-Fi",
+  "language": "English",
+  "description": "A dream within a dream",
+  "videoUrl": "http://example.com/inception.mp4",
+  "rating": 9.0,
+  "thumbnailUrl": "http://example.com/inception.jpg"
+}
+================================
+getmapping based on id -http://localhost:8181/movie/1
+getmapping based on genre-http://localhost:8181/movie/genre/Sci-Fi
+getting all movies - http://localhost:8181/movie
+getmapping for search - http://localhost:8181/movie/search?title=Interstellar
+==========================================================================================
